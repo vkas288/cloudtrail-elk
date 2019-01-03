@@ -51,7 +51,7 @@ resource "aws_security_group" "elk_sg" {
 
   tags {
     Name   = "elk_sg"
-    Author = "mlabouardy"
+    Author = "vkas"
     Tool   = "Terraform"
   }
 }
@@ -69,7 +69,7 @@ resource "aws_iam_role_policy" "cloudtrail_bucket_access_policy" {
         "s3:*"
       ],
       "Effect": "Allow",
-      "Resource": "arn:aws:s3:::cloudtrail-demo-2018"
+      "Resource": "arn:aws:s3:::cloudtrail-433635431695"
     }
   ]
 }
@@ -114,7 +114,7 @@ resource "aws_instance" "elk" {
 
   tags {
     Name   = "elk"
-    Author = "mlabouardy"
+    Author = "vkas"
     Tool   = "Terraform"
   }
 }
