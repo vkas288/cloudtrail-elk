@@ -15,7 +15,7 @@
             "run_tags" : {
                 "Name" : "packer-builder-docker",
                 "Tool" : "Packer",
-                "Author" : "mlabouardy"
+                "Author" : "vkas"
             }
         }
     ],
