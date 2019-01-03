@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = "SSH Key Pair"
-  default     = "personal"
+  default     = "eks-terraform-poc"
 }
 
 variable "instance_type" {
